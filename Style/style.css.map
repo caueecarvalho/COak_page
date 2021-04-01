@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACb;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAkB;CACrC",
+    "sources": [
+        "style.scss",
+        "_nav.scss",
+        "_about.scss",
+        "_skills.scss",
+        "_portifolio.scss",
+        "_contact.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

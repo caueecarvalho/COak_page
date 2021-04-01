@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(173, 166, 166);
+}
+
+//Imports
+@import "nav";
+@import "about";
+@import "skills";
+@import "portifolio";
+@import "contact";
+@import "footer";
