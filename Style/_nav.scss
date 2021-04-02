@@ -4,9 +4,42 @@ nav {
   height: 60px;
   display: flex;
   align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: -1px 4px 5px -1px rgba(0, 0, 0, 0.75);
 }
 
-a {
+.com1,
+.com2 {
+  @include text1(22px, $color1);
+  text-decoration: none;
+  position: absolute;
+  top: 18px;
+
+  &:hover {
+    color: $color6;
+  }
+}
+
+.com1 {
+  right: 30%;
+}
+
+.com2 {
+  right: 20%;
+}
+
+.cont {
   @include text1(18px, $color1);
   text-decoration: none;
+  background-color: $color6;
+  padding: 10px 25px;
+  border-radius: 20px;
+  position: absolute;
+  right: 5%;
+  top: 8px;
+
+  &:hover {
+    background-color: $color7;
+  }
 }

@@ -17,11 +17,47 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  -webkit-box-shadow: -1px 4px 5px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 4px 5px -1px rgba(0, 0, 0, 0.75);
 }
 
-a {
+.com1,
+.com2 {
+  font: 22px "Rajdhani", sans-serif;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 18px;
+}
+
+.com1:hover,
+.com2:hover {
+  color: #00d8cd;
+}
+
+.com1 {
+  right: 30%;
+}
+
+.com2 {
+  right: 20%;
+}
+
+.cont {
   font: 18px "Rajdhani", sans-serif;
   color: white;
   text-decoration: none;
+  background-color: #00d8cd;
+  padding: 10px 25px;
+  border-radius: 20px;
+  position: absolute;
+  right: 5%;
+  top: 8px;
+}
+
+.cont:hover {
+  background-color: #03e6da;
 }
 /*# sourceMappingURL=style.css.map */
