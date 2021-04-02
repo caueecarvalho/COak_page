@@ -4,10 +4,11 @@
 }
 
 body {
-  background-color: rgb(173, 166, 166);
+  background-color: #fff;
 }
 
 //Imports
+@import "general";
 @import "nav";
 @import "about";
 @import "skills";

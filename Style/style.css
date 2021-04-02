@@ -4,6 +4,24 @@
 }
 
 body {
-  background-color: #ada6a6;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #2e2e2e;
+  width: auto;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  font: 18px "Rajdhani", sans-serif;
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

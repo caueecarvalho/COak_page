@@ -1,0 +1,12 @@
+nav {
+  background-color: $color3;
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  @include text1(18px, $color1);
+  text-decoration: none;
+}
