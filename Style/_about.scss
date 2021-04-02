@@ -1,0 +1,7 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include text1(30px, $color4);
+  margin-bottom: 80px;
+}

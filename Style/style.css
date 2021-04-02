@@ -60,4 +60,90 @@ nav {
 .cont:hover {
   background-color: #03e6da;
 }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 30px "Rajdhani", sans-serif;
+  color: #424242;
+  margin-bottom: 80px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #424242;
+  padding: 50px 120px;
+  -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.language {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  font: 30px "Rajdhani", sans-serif;
+  color: #00d8cd;
+}
+
+.info {
+  font: 20px "Rajdhani", sans-serif;
+  color: white;
+}
+
+.portifolio {
+  font: 30px "Rajdhani", sans-serif;
+  color: #424242;
+  padding: 50px;
+}
+
+.firstgroup,
+.secondgroup {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
