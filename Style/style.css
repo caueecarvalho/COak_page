@@ -23,6 +23,11 @@ nav {
           box-shadow: -1px 4px 5px -1px rgba(0, 0, 0, 0.75);
 }
 
+.logo {
+  width: 50px;
+  margin: 30px;
+}
+
 .com1,
 .com2 {
   font: 22px "Rajdhani", sans-serif;
@@ -34,7 +39,7 @@ nav {
 
 .com1:hover,
 .com2:hover {
-  color: #00d8cd;
+  color: #2dc59f;
 }
 
 .com1 {
@@ -49,7 +54,7 @@ nav {
   font: 18px "Rajdhani", sans-serif;
   color: white;
   text-decoration: none;
-  background-color: #00d8cd;
+  background-color: #2dc59f;
   padding: 10px 25px;
   border-radius: 20px;
   position: absolute;
@@ -58,7 +63,7 @@ nav {
 }
 
 .cont:hover {
-  background-color: #03e6da;
+  background-color: #37e9bc;
 }
 
 .about {
@@ -109,7 +114,7 @@ nav {
 
 h2 {
   font: 30px "Rajdhani", sans-serif;
-  color: #00d8cd;
+  color: #2dc59f;
 }
 
 .info {
@@ -155,7 +160,7 @@ h3 {
 
 .code,
 .page {
-  background-color: #00d8cd;
+  background-color: #2dc59f;
   font: 20px "Rajdhani", sans-serif;
   color: white;
   text-decoration: none;
@@ -165,7 +170,7 @@ h3 {
 
 .code:hover,
 .page:hover {
-  background-color: #03e6da;
+  background-color: #37e9bc;
 }
 
 .contact {
