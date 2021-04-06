@@ -2,10 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include text1(30px, $color4);
   margin-bottom: 80px;
 }
 
 .logocenter {
   width: 200px;
+}
+
+h1 {
+  @include text1(30px, $color1);
+  margin: 30px 0px 20px 0px;
+}
+
+p {
+  @include text1(20px, $color1);
+}
+
+.parag {
+  padding: 20px 40px 30px 30px;
+  border-radius: 50px;
+  background-color: $color8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
