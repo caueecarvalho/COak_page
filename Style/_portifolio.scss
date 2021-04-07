@@ -22,7 +22,7 @@ img {
 
 h3 {
   width: 220px;
-  @include text1(20px, $color4);
+  @include text1(20px, $color1);
   text-align: center;
   margin: 15px 0px;
 }

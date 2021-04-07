@@ -79,7 +79,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 80px;
+  padding: 70px 80px 110px 80px;
 }
 
 .logocenter {
@@ -124,7 +124,7 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #424242;
-  padding: 50px 120px;
+  padding: 50px 120px 70px 120px;
   -webkit-box-shadow: 2px 10px 5px -5px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 10px 5px -5px rgba(0, 0, 0, 0.5);
 }
@@ -144,12 +144,16 @@ p {
 }
 
 h2 {
-  font: 30px "Rajdhani", sans-serif;
+  font: 35px "Rajdhani", sans-serif;
   color: #2dc59f;
 }
 
 .info {
-  font: 20px "Rajdhani", sans-serif;
+  width: 280px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  font: 18px "Rajdhani", sans-serif;
   color: white;
 }
 
@@ -189,7 +193,7 @@ img {
 h3 {
   width: 220px;
   font: 20px "Rajdhani", sans-serif;
-  color: #424242;
+  color: white;
   text-align: center;
   margin: 15px 0px;
 }

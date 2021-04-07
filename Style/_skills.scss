@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: $color4;
-  padding: 50px 120px;
+  padding: 50px 120px 70px 120px;
   box-shadow: 2px 10px 5px -5px rgba(0, 0, 0, 0.5);
 }
 
@@ -15,9 +15,13 @@
 }
 
 h2 {
-  @include text1(30px, $color6);
+  @include text1(35px, $color6);
 }
 
 .info {
-  @include text1(20px, $color1);
+  width: 280px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  @include text1(18px, $color1);
 }
